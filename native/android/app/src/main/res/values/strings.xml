@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Life Managed</string>
+    <string name="title_activity_main">Life Managed</string>
+    <string name="package_name">app.lifemanaged</string>
+    <string name="custom_url_scheme">app.lifemanaged</string>
+</resources>

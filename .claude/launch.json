@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "life-managed",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5194", "--directory", "C:/Users/suzan/Life Organized"],
+      "port": 5194
+    }
+  ]
+}

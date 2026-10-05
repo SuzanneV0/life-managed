@@ -1,0 +1,14 @@
+{
+  "appId": "app.lifemanaged",
+  "appName": "Life Managed",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#1E2A3B"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_lifemanaged",
+      "iconColor": "#F2A33A"
+    }
+  }
+}

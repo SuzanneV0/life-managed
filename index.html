@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Life Managed: Renewals, Bills, Subscriptions &amp; Budgets</title>
+  <meta name="description" content="Never miss a deadline: track document renewals, memberships, bills, contracts, insurance and subscriptions, and stay on budget. Private: everything stays on your device.">
+  <meta name="theme-color" content="#1E2A3B">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Life Managed">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="icon" href="icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Life Managed home">
+      <img src="icon.svg" alt="" width="30" height="30">
+      <span>Life Managed</span>
+    </a>
+    <nav class="tabs" aria-label="Main">
+      <a href="#home" data-tab="home"><span class="tab-ico" aria-hidden="true">🗓️</span><span>Upcoming</span></a>
+      <a href="#all" data-tab="all"><span class="tab-ico" aria-hidden="true">🗂️</span><span>Everything</span></a>
+      <a href="#budgets" data-tab="budgets"><span class="tab-ico" aria-hidden="true">💰</span><span>Budgets</span></a>
+      <a href="#rewards" data-tab="rewards"><span class="tab-ico" aria-hidden="true">🏆</span><span>Rewards</span></a>
+    </nav>
+    <a class="icon-btn" href="#settings" aria-label="Settings" data-tab="settings">⚙️</a>
+  </header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <button class="fab" type="button" data-action="add" aria-label="Add">＋</button>
+
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="confetti" aria-hidden="true"></div>
+
+  <noscript><p class="noscript">Life Managed needs JavaScript turned on.</p></noscript>
+  <script src="native.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
